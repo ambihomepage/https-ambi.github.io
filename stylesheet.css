@@ -1,7 +1,7 @@
 .header{
     background-image: url(https://raw.githubusercontent.com/ambihomepage/https-ambi.github.io/main/sean-oulashin-KMn4VEeEPR8-unsplash.jpg);
     height: 768px;
-    background-size: cover;
+    background-size:cover;
 }
 
 .header-logo{
@@ -14,3 +14,42 @@
 .keyphrase{
     height: 700px;
 }
+
+.postbox1{
+    position: relative;
+    float: left;
+    width: 50%;
+}
+
+.postbox1-1 img{
+    max-width: 100%;
+    height: auto;
+}
+
+.postbox1-1 p{
+    position: absolute;
+    top: 90px;
+    left:50%;
+    width: 100%;
+    color: black;
+}
+
+.postbox2{
+    position: relative;
+    float: left;
+    width: 50%;
+}
+
+.postbox2-1 img{
+    max-width: 100%;
+    height: auto;
+}
+
+.postbox2-1 p{
+    position: absolute;
+    top: 90px;
+    left:50%;
+    width: 100%;
+    color: black;
+}
+
