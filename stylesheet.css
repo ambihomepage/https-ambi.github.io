@@ -1,55 +1,113 @@
-.header{
-    background-image: url(https://raw.githubusercontent.com/ambihomepage/https-ambi.github.io/main/sean-oulashin-KMn4VEeEPR8-unsplash.jpg);
-    height: 768px;
-    background-size:cover;
-}
+body {
+    font-family: "Avenir Next";
+  }
+  
+  li{
+    list-style: none;
+  }
+  
+  .header{
+    background-color:black;
+    color:white;
+    height: 700px;
+  }
+  
+  .header-logo {
+    float:left;
+    font-size:36px;
+    padding:20px 40px;
+  }
+  
+  .header-list li{
+    float: left;
+    padding: 33px 20px;
+  }
 
-.header-logo{
-    position: absolute;
-    top: 20px;
-    left: 30px;
-    font-size: 50px;
-}
-
-.keyphrase{
+  .header img{
+     width: 100%;
+     height: 700px;
+  }
+  
+.keyphrase {
+    font-size: 10px;
+    padding-top: 100px;
     height: 700px;
 }
 
-.postbox1{
+  .postbox1{
     position: relative;
     float: left;
     width: 50%;
-}
-
-.postbox1-1 img{
+  }
+  
+  .postbox1-1 img{
     max-width: 100%;
     height: auto;
-}
-
-.postbox1-1 p{
+  }
+  
+  .postbox1-1 p{
     position: absolute;
     top: 90px;
     left:50%;
     width: 100%;
     color: black;
-}
-
-.postbox2{
+  }
+  
+  .postbox2{
     position: relative;
     float: left;
     width: 50%;
-}
-
-.postbox2-1 img{
+  }
+  
+  .postbox2-1 img{
     max-width: 100%;
     height: auto;
-}
-
-.postbox2-1 p{
+  }
+  
+  .postbox2-1 p{
     position: absolute;
     top: 90px;
     left:50%;
     width: 100%;
     color: black;
-}
-
+  }
+  
+  
+  
+  .contact-form{
+    padding-top: 100px;
+  }
+  
+  input{
+    width:400px;
+    margin-top:10px;
+    margin-bottom:30px;
+    padding:20px;
+    font-size:18px;
+    border:1px solid #dee7ec;
+  }
+  
+  .contact-submit{
+    background-color: #dee7ec;
+    color:#889eab;
+  }
+  
+  .footer{
+    background-color:black;
+    color:#fff;
+    height:120px;
+    padding: 40px;
+  }
+  
+  .footer-logo{
+    font-size:32px;
+    float:left;
+  }
+  
+  .footer-list{
+    float:right;
+  }
+  
+  .footer-list li{
+    padding-bottom:20px;
+  }
